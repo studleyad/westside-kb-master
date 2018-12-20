@@ -1,0 +1,11 @@
+<div class="allProjects">
+  <div class="card" *ngFor="let project of projects">
+      <a routerLink='/projects/detail/{{project.id}}'>
+    <img class="card-img-top" src="/assets/images/{{project.folder}}/{{project.mainImg}}" alt="">
+    <div class="card-body">
+      <h4 class="card-title">{{project.name}}</h4>
+      <p class="card-text">{{project.description}}</p>
+    </div>
+    </a>
+  </div>
+</div>

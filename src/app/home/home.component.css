@@ -1,0 +1,206 @@
+#logo {
+    height: auto;
+    margin: 0 50px;
+    width: 500px;
+  }
+  .index-carousel {
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid black;
+   
+  }
+  .index-carousel h1 {
+    position: relative;
+    font-size: 75px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .carousel-image {
+    height: auto;
+  }
+  .carousel-caption {
+    background-color: rgba(52,58,64,.75);
+    
+    width: 100%;
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+  
+  #navigation {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgb(172, 139, 120);
+    font-size: 20px !important;
+    
+    border-bottom: 2px solid black;
+  }
+  .dropdown-menu {
+    border: none;
+    font-size: 20px !important;
+  }
+  
+  .navigation-white {
+    background-color: white;
+  }
+  
+  /*specializing*/
+  #specializing-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .card {
+    width: 400px;
+    margin: auto;
+  }
+  .testimonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: auto;
+  }
+  .testimonial-carousel {
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    
+  }
+  .stars {
+    width: 100px;
+    height: auto;
+  }
+  /*info-container*/
+  
+  #info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 2px solid black;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+  }
+  #info-container h1 {
+    text-transform: uppercase;
+  }
+  .info-image {
+    margin-bottom: 2px;
+  }
+  #who-we-are {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/wood.jpeg);
+    background-size: 100% 300px;
+    height: 300px;
+    width: 100%;
+    opacity: 0.25;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+  }
+  
+  #who-we-are h1,
+  #who-we-are p {
+    color: white;
+  }
+  #how-we-do-it {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/blueprint.jpeg);
+    background-size: 100% 300px;
+    height: 300px;
+    width: 100%;
+    opacity: 0.25;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+  }
+  
+  #how-we-do-it h1,
+  #how-we-do-it p {
+    color: white;
+  }
+  #what-we-do {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/jigsaw.jpeg);
+    background-size: 100% 300px;
+    height: 300px;
+    width: 100%;
+    opacity: 0.25; 
+    align-items: center;
+    justify-content: center;
+  }
+  #what-we-do h1,
+  #what-we-do p {
+    color: white;
+  }
+  #info-container a {
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    text-align: center;
+  }
+  #info-container a:hover {
+    text-decoration: none !important;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  #who-we-are:hover {
+    opacity: 1;
+  }
+  #how-we-do-it:hover {
+    opacity: 1;
+  }
+  #what-we-do:hover {
+    opacity: 1;
+  }
+  
+  @media (max-width: 1200px) {
+
+    .carousel-image {
+      height: 100%;
+    }
+  
+    /*specializing*/
+  
+    #specializing-container {
+      position: relative;
+      width: 100%;
+    }
+    #specializing {
+      height: fit-content;
+      width: auto;
+    }
+    #specializing h2 {
+      font-size: 14px;
+    }
+    #specializing p {
+      font-size: 11px;
+    }
+  
+    /*info-container*/
+  
+    #info-container {
+      position: relative;
+    }
+    #who-we-are {
+      height: 200px;
+      background-image: url(/src/assets/images/wood-small.jpeg);
+    }
+    #what-we-do {
+      height: 200px;
+      background-image: url(/src/assets/images/jigsaw-small.jpeg);
+    }
+    #how-we-do-it {
+      height: 200px;
+      background-image: url(/src/assets/images/blueprint-small.jpeg);
+    }
+  }
+  
+  

@@ -1,0 +1,34 @@
+.card-deck {
+    z-index: -1;
+    margin: 200px;
+    padding: 0 50px;
+  }
+  .card-deck a {
+    color: black;
+    font-family: "Playfair Display SC", serif !important;
+  }
+  .card-deck a:hover {
+    text-decoration: none;
+  }
+  .card-body {
+    text-align: center;
+    justify-items: center;
+  }
+  #services-container {
+    position: relative;
+    top: 100px;
+  }
+  .servies-info-container {
+    padding: 0 50px;
+  }
+  
+  @media (max-width: 600px) {
+    /*Services.html*/
+    .card-deck {
+      display: flex;
+      flex-direction: column;
+      margin: 100px 0;
+      padding: 0 10px;
+    }
+  }
+  

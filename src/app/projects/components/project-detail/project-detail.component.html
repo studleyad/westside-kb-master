@@ -1,0 +1,18 @@
+
+<div>
+  <a routerLink='/projects'>Back to all projects</a>
+  <div *ngFor="let project of projects" class="allImages">
+    <div class="card" *ngFor="let beforeImage of project.before" >
+      <img class="card-img-top" src="/assets/images/{{project.folder}}/{{beforeImage}}" alt="">
+    </div>
+  </div>
+</div>
+
+<div>
+  
+  <div *ngFor="let project of projects" class="allImages">
+    <div class="card" *ngFor="let afterImage of project.after" >
+      <img class="card-img-top" src="/assets/images/{{project.folder}}/{{afterImage}}" alt="">
+    </div>
+  </div>
+</div>
