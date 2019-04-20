@@ -1,6 +1,7 @@
 .navbar-brand {
     font-size: 25px !important;
 }
+
 @media (max-width: 600px) {
     .navbar-brand {
         font-size: 14px !important;
